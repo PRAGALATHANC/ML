@@ -1,0 +1,2 @@
+# One-hot encode categorical variables
+data = pd.get_dummies(data, columns=['Location', 'WindGustDir', 'WindDir9am', 'WindDir3pm'], drop_first=True)
