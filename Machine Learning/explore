@@ -1,0 +1,8 @@
+# Check basic information about the dataset
+print(data.info())
+
+# Check for missing values
+print(data.isnull().sum())
+
+# Summary statistics
+print(data.describe())
